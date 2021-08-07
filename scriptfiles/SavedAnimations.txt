@@ -1,0 +1,10 @@
+ApplyAnimation(playerid, "CAMERA", "CAMCRCH_TO_CAMSTND", 4.0, 1, 0, 0, 0, 0); // 
+ApplyAnimation(playerid, "CAMERA", "CAMCRCH_TO_CAMSTND", 4.0, 1, 0, 0, 0, 0); // 
+ApplyAnimation(playerid, "CAMERA", "CAMCRCH_TO_CAMSTND", 4.0, 1, 0, 0, 0, 0); // 
+ApplyAnimation(playerid, "CAMERA", "CAMSTND_IDLELOOP", 4.0, 1, 0, 0, 0, 0); // 
+ApplyAnimation(playerid, "CAMERA", "CAMCRCH_IDLELOOP", 4.0, 1, 0, 0, 0, 0); // 
+ApplyAnimation(playerid, "CAMERA", "CAMCRCH_IDLELOOP", 4.0, 1, 0, 0, 0, 0); // 
+ApplyAnimation(playerid, "BOMBER", "BOM_PLANT_CROUCH_OUT", 4.0, 1, 0, 0, 0, 0); // 
+ApplyAnimation(playerid, "BOMBER", "BOM_PLANT", 4.0, 1, 0, 0, 0, 0); // 
+ApplyAnimation(playerid, "FIGHT_B", "FIGHTB_M", 4.0, 1, 0, 0, 0, 0); // 
+ApplyAnimation(playerid, "FIGHT_B", "FIGHTB_M", 4.0, 1, 0, 0, 0, 0); // lv

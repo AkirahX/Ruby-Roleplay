@@ -1,0 +1,55 @@
+new g_Object[15];
+g_Object[0] = CreateObject(19381, 1754.0262, 987.6948, 14.1440, 0.0000, 0.0000, -0.0999); //wall029
+SetObjectMaterial(g_Object[0], 0, 10755, "airportrminl_sfse", "ws_airportwall2", 0x00000000);
+g_Object[1] = CreateObject(19378, 1748.6867, 987.7890, 9.7209, 0.0000, 90.6000, 0.0000); //wall026
+SetObjectMaterial(g_Object[1], 0, 18008, "intclothesa", "mp_cloth_vicfloor", 0xFFE6E6FA);
+g_Object[2] = CreateObject(19381, 1754.0433, 997.3047, 14.1440, 0.0000, 0.0000, -0.0999); //wall029
+SetObjectMaterial(g_Object[2], 0, 10755, "airportrminl_sfse", "ws_airportwall2", 0x00000000);
+g_Object[3] = CreateObject(19381, 1754.0601, 1006.9246, 14.1440, 0.0000, 0.0000, -0.0999); //wall029
+SetObjectMaterial(g_Object[3], 0, 10755, "airportrminl_sfse", "ws_airportwall2", 0x00000000);
+g_Object[4] = CreateObject(19381, 1754.0775, 1016.5042, 14.1440, 0.0000, 0.0000, -0.0999); //wall029
+SetObjectMaterial(g_Object[4], 0, 10755, "airportrminl_sfse", "ws_airportwall2", 0x00000000);
+g_Object[5] = CreateObject(19381, 1754.0634, 1026.1254, 14.1440, 0.0000, 0.0000, 0.2999); //wall029
+SetObjectMaterial(g_Object[5], 0, 10755, "airportrminl_sfse", "ws_airportwall2", 0x00000000);
+g_Object[6] = CreateObject(19378, 1748.6867, 997.4187, 9.7209, 0.0000, 90.6000, 0.0000); //wall026
+SetObjectMaterial(g_Object[6], 0, 18008, "intclothesa", "mp_cloth_vicfloor", 0xFFE6E6FA);
+g_Object[7] = CreateObject(19378, 1748.6867, 1007.0407, 9.7209, 0.0000, 90.6000, 0.0000); //wall026
+SetObjectMaterial(g_Object[7], 0, 18008, "intclothesa", "mp_cloth_vicfloor", 0xFFE6E6FA);
+g_Object[8] = CreateObject(19378, 1748.6867, 1016.6509, 9.7209, 0.0000, 90.6000, 0.0000); //wall026
+SetObjectMaterial(g_Object[8], 0, 18008, "intclothesa", "mp_cloth_vicfloor", 0xFFE6E6FA);
+g_Object[9] = CreateObject(19378, 1748.6867, 1026.2694, 9.7209, 0.0000, 90.6000, 0.0000); //wall026
+SetObjectMaterial(g_Object[9], 0, 18008, "intclothesa", "mp_cloth_vicfloor", 0xFFE6E6FA);
+g_Object[10] = CreateObject(19378, 1738.1870, 1026.2694, 9.8308, 0.0000, 90.6000, 0.0000); //wall026
+SetObjectMaterial(g_Object[10], 0, 18008, "intclothesa", "mp_cloth_vicfloor", 0xFFE6E6FA);
+g_Object[11] = CreateObject(19378, 1738.1870, 1016.6391, 9.8308, 0.0000, 90.6000, 0.0000); //wall026
+SetObjectMaterial(g_Object[11], 0, 18008, "intclothesa", "mp_cloth_vicfloor", 0xFFE6E6FA);
+g_Object[12] = CreateObject(19378, 1738.1870, 1007.0196, 9.8308, 0.0000, 90.6000, 0.0000); //wall026
+SetObjectMaterial(g_Object[12], 0, 18008, "intclothesa", "mp_cloth_vicfloor", 0xFFE6E6FA);
+g_Object[13] = CreateObject(19378, 1738.1870, 997.4092, 9.8308, 0.0000, 90.6000, 0.0000); //wall026
+SetObjectMaterial(g_Object[13], 0, 18008, "intclothesa", "mp_cloth_vicfloor", 0xFFE6E6FA);
+g_Object[14] = CreateObject(19378, 1738.1870, 987.7892, 9.8308, 0.0000, 90.6000, 0.0000); //wall026
+SetObjectMaterial(g_Object[14], 0, 18008, "intclothesa", "mp_cloth_vicfloor", 0xFFE6E6FA);
+RemoveBuildingForPlayer(playerid, 8059, 1608.9100, 971.7189, 13.2109, 0.10); // vgswrehse07
+RemoveBuildingForPlayer(playerid, 8166, 1608.9100, 971.7189, 13.2109, 0.10); // LOD Model of vgswrehse07
+RemoveBuildingForPlayer(playerid, 1420, 1605.1800, 955.0310, 9.8203, 0.10); // DYN_AIRCON
+RemoveBuildingForPlayer(playerid, 1438, 1723.3299, 987.6560, 9.8125, 0.10); // DYN_BOX_PILE_2
+RemoveBuildingForPlayer(playerid, 1215, 1707.3399, 990.5230, 10.2890, 0.10); // bollardlight
+RemoveBuildingForPlayer(playerid, 1365, 1745.0699, 987.1329, 10.9609, 0.10); // CJ_BIG_SKIP1
+RemoveBuildingForPlayer(playerid, 1358, 1752.9000, 980.3980, 10.9843, 0.10); // CJ_SKIP_Rubbish
+RemoveBuildingForPlayer(playerid, 1684, 1632.3199, 1035.3000, 11.3281, 0.10); // portakabin
+RemoveBuildingForPlayer(playerid, 1245, 1631.4399, 1045.1300, 11.1718, 0.10); // newramp
+RemoveBuildingForPlayer(playerid, 8058, 1621.6300, 1094.8000, 14.8203, 0.10); // vgswrehse06
+RemoveBuildingForPlayer(playerid, 8157, 1621.6300, 1094.8000, 14.8203, 0.10); // LOD Model of vgswrehse06
+RemoveBuildingForPlayer(playerid, 1438, 1706.7299, 1005.3099, 9.8125, 0.10); // DYN_BOX_PILE_2
+RemoveBuildingForPlayer(playerid, 1215, 1707.3399, 1007.8200, 10.2890, 0.10); // bollardlight
+RemoveBuildingForPlayer(playerid, 8061, 1727.8000, 1018.6300, 14.8203, 0.10); // vgswrehse04
+RemoveBuildingForPlayer(playerid, 8158, 1727.8000, 1018.6300, 14.8203, 0.10); // LOD Model of vgswrehse04
+RemoveBuildingForPlayer(playerid, 1215, 1707.3399, 1021.3800, 10.2890, 0.10); // bollardlight
+RemoveBuildingForPlayer(playerid, 1215, 1707.3399, 1029.4100, 10.2890, 0.10); // bollardlight
+RemoveBuildingForPlayer(playerid, 1616, 1708.0200, 1049.0500, 16.0781, 0.10); // nt_securecam1_01
+RemoveBuildingForPlayer(playerid, 1219, 1719.7900, 1050.0200, 10.0625, 0.10); // palette
+RemoveBuildingForPlayer(playerid, 1219, 1718.1300, 1050.0200, 10.4687, 0.10); // palette
+RemoveBuildingForPlayer(playerid, 1219, 1719.5899, 1050.0200, 10.9140, 0.10); // palette
+RemoveBuildingForPlayer(playerid, 1219, 1720.9499, 1050.0200, 10.4687, 0.10); // palette
+RemoveBuildingForPlayer(playerid, 1219, 1722.5999, 1050.0200, 10.0625, 0.10); // palette
+RemoveBuildingForPlayer(playerid, 1616, 1745.1099, 1074.4000, 16.0781, 0.10); // nt_securecam1_01

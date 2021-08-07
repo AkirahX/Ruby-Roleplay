@@ -1,0 +1,712 @@
+new g_Object[7];
+new g_Vehicle[356];
+g_Object[0] = CreateObject(4735, 2194.9189, -1749.3470, 11.4659, 0.0000, 0.0000, 1.1200); //billbrdlan2_09
+SetObjectMaterial(g_Object[0], 0, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[0], 1, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[0], 2, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[0], 3, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[0], 4, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[0], 5, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[0], 6, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[0], 7, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[0], 8, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[0], 9, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[0], 10, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[0], 11, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[0], 12, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[0], 13, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[0], 14, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[0], 15, 0, "INVALID", "INVALID", 0x00000000);
+g_Object[1] = CreateObject(4735, 2044.5329, -1450.9803, 16.5216, -10.2399, 0.0000, 91.0000); //billbrdlan2_09
+SetObjectMaterial(g_Object[1], 0, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[1], 1, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[1], 2, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[1], 3, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[1], 4, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[1], 5, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[1], 6, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[1], 7, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[1], 8, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[1], 9, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[1], 10, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[1], 11, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[1], 12, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[1], 13, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[1], 14, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[1], 15, 0, "INVALID", "INVALID", 0x00000000);
+g_Object[2] = CreateObject(4735, 1872.9104, -1030.1666, 21.7698, 0.0000, 0.0000, 98.5000); //billbrdlan2_09
+SetObjectMaterial(g_Object[2], 0, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[2], 1, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[2], 2, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[2], 3, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[2], 4, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[2], 5, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[2], 6, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[2], 7, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[2], 8, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[2], 9, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[2], 10, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[2], 11, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[2], 12, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[2], 13, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[2], 14, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[2], 15, 0, "INVALID", "INVALID", 0x00000000);
+g_Object[3] = CreateObject(4735, 2365.8271, -1469.7474, 23.4078, 0.0000, 0.0000, 90.6389); //billbrdlan2_09
+SetObjectMaterial(g_Object[3], 0, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[3], 1, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[3], 2, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[3], 3, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[3], 4, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[3], 5, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[3], 6, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[3], 7, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[3], 8, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[3], 9, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[3], 10, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[3], 11, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[3], 12, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[3], 13, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[3], 14, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[3], 15, 0, "INVALID", "INVALID", 0x00000000);
+g_Object[4] = CreateObject(4735, 2003.6151, -1901.5019, 6.3821, 0.0000, 39.3600, -133.9550); //billbrdlan2_09
+SetObjectMaterial(g_Object[4], 0, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[4], 1, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[4], 2, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[4], 3, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[4], 4, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[4], 5, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[4], 6, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[4], 7, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[4], 8, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[4], 9, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[4], 10, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[4], 11, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[4], 12, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[4], 13, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[4], 14, 0, "INVALID", "INVALID", 0x00000000);
+SetObjectMaterial(g_Object[4], 15, 0, "INVALID", "INVALID", 0x00000000);
+g_Object[5] = CreateObject(11716, 1675.0156, -1204.0020, 19.6159, 0.0000, 0.0000, 89.1000); //MetalKnife1
+g_Object[6] = CreateObject(11716, 1675.0156, -1204.0020, 19.6159, 0.0000, 0.0000, 0.0000); //MetalKnife1
+g_Vehicle[0] = CreateVehicle(556, 501.0663, 2387.3103, 30.0904, 162.3793, 0, 0, -1); //Monster A
+ChangeVehiclePaintjob(g_Vehicle[0], 0);
+g_Vehicle[1] = CreateVehicle(557, 506.4840, 2384.4216, 30.3789, 164.1766, 0, 0, -1); //Monster B
+ChangeVehiclePaintjob(g_Vehicle[1], 0);
+g_Vehicle[2] = CreateVehicle(444, 511.9830, 2381.1523, 30.5524, 168.5997, 0, 0, -1); //Monster
+ChangeVehiclePaintjob(g_Vehicle[2], 0);
+g_Vehicle[3] = CreateVehicle(573, 517.8458, 2379.0085, 30.8236, 164.8529, 0, 0, -1); //Duneride
+g_Vehicle[4] = CreateVehicle(495, 523.4055, 2376.6723, 30.5541, 167.1078, 0, 0, -1); //Sandking
+ChangeVehiclePaintjob(g_Vehicle[4], 0);
+g_Vehicle[5] = CreateVehicle(424, 528.2791, 2374.0529, 30.0112, 161.6425, 0, 0, -1); //BF Injection
+ChangeVehiclePaintjob(g_Vehicle[5], 0);
+g_Vehicle[6] = CreateVehicle(568, 532.9863, 2371.4367, 30.2695, 155.2608, 0, 0, -1); //Bandito
+ChangeVehiclePaintjob(g_Vehicle[6], 0);
+g_Vehicle[7] = CreateVehicle(468, 536.3784, 2368.1428, 30.2595, 137.4523, 0, 0, -1); //Sanchez
+g_Vehicle[8] = CreateVehicle(471, 538.2083, 2364.9704, 30.1795, 107.5356, 0, 0, -1); //Quad
+ChangeVehiclePaintjob(g_Vehicle[8], 0);
+g_Vehicle[9] = CreateVehicle(479, 2120.5676, -1127.9465, 25.1863, 267.9612, 0, 0, -1); //Regina
+ChangeVehiclePaintjob(g_Vehicle[9], 0);
+g_Vehicle[10] = CreateVehicle(549, 2120.0297, -1132.5596, 25.0272, 267.1064, 0, 0, -1); //Tampa
+ChangeVehiclePaintjob(g_Vehicle[10], 0);
+g_Vehicle[11] = CreateVehicle(404, 2120.0737, -1137.0241, 24.9377, 267.7562, 0, 0, -1); //Pereniel
+g_Vehicle[12] = CreateVehicle(604, 2119.7265, -1141.5540, 24.6606, 267.3804, 0, 0, -1); //Glendale
+ChangeVehiclePaintjob(g_Vehicle[12], 0);
+g_Vehicle[13] = CreateVehicle(474, 2119.4707, -1146.5073, 24.2590, 268.3082, 0, 0, -1); //Hermes
+ChangeVehiclePaintjob(g_Vehicle[13], 0);
+g_Vehicle[14] = CreateVehicle(542, 2135.2451, -1148.1136, 24.1895, 83.6642, 0, 0, -1); //Clover
+ChangeVehiclePaintjob(g_Vehicle[14], 0);
+g_Vehicle[15] = CreateVehicle(445, 2135.3205, -1142.9938, 24.8854, 83.9139, 0, 0, -1); //Admiral
+g_Vehicle[16] = CreateVehicle(576, 2134.8493, -1137.9279, 25.1776, 84.1361, 0, 0, -1); //Tornado
+ChangeVehiclePaintjob(g_Vehicle[16], 0);
+g_Vehicle[17] = CreateVehicle(466, 2135.2763, -1133.0928, 25.4631, 82.5455, 0, 0, -1); //Glendale
+ChangeVehiclePaintjob(g_Vehicle[17], 0);
+g_Vehicle[18] = CreateVehicle(467, 2135.2609, -1127.8674, 25.3292, 82.4421, 0, 0, -1); //Oceanic
+ChangeVehiclePaintjob(g_Vehicle[18], 0);
+g_Vehicle[19] = CreateVehicle(491, 565.2266, -1291.0828, 17.0055, 0.0604, 0, 0, -1); //Virgo
+g_Vehicle[20] = CreateVehicle(419, 561.2645, -1290.9714, 17.0435, 355.7703, 0, 0, -1); //Esperanto
+ChangeVehiclePaintjob(g_Vehicle[20], 0);
+g_Vehicle[21] = CreateVehicle(517, 557.1796, -1291.1314, 17.1032, 356.4773, 0, 0, -1); //Majestic
+ChangeVehiclePaintjob(g_Vehicle[21], 0);
+g_Vehicle[22] = CreateVehicle(492, 553.0203, -1291.1063, 17.0373, 357.2239, 0, 0, -1); //Greenwood
+ChangeVehiclePaintjob(g_Vehicle[22], 0);
+g_Vehicle[23] = CreateVehicle(518, 549.3109, -1290.8479, 16.9202, 358.1565, 0, 0, -1); //Buccaneer
+g_Vehicle[24] = CreateVehicle(566, 545.6411, -1290.4570, 17.0300, 1.3416, 0, 0, -1); //Tahoma
+ChangeVehiclePaintjob(g_Vehicle[24], 0);
+g_Vehicle[25] = CreateVehicle(412, 541.8218, -1290.3284, 17.0795, 359.7224, 0, 0, -1); //Voodoo
+ChangeVehiclePaintjob(g_Vehicle[25], 0);
+g_Vehicle[26] = CreateVehicle(575, 538.0327, -1290.5917, 16.8435, 0.0575, 0, 0, -1); //Broadway
+ChangeVehiclePaintjob(g_Vehicle[26], 0);
+g_Vehicle[27] = CreateVehicle(535, 534.0598, -1290.6119, 17.0344, 1.1727, 0, 0, -1); //Slamvan
+g_Vehicle[28] = CreateVehicle(567, 529.6997, -1290.6496, 17.1142, 0.8398, 0, 0, -1); //Savanna
+ChangeVehiclePaintjob(g_Vehicle[28], 0);
+g_Vehicle[29] = CreateVehicle(534, 525.7573, -1290.8564, 16.9671, 0.0643, 0, 0, -1); //Remington
+ChangeVehiclePaintjob(g_Vehicle[29], 0);
+g_Vehicle[30] = CreateVehicle(536, 521.3748, -1290.9973, 16.9820, 3.5459, 0, 0, -1); //Blade
+ChangeVehiclePaintjob(g_Vehicle[30], 0);
+g_Vehicle[31] = CreateVehicle(603, 531.1644, -1279.0928, 17.0823, 217.5198, 0, 0, -1); //Phoenix
+g_Vehicle[32] = CreateVehicle(439, 535.1035, -1275.8072, 17.1376, 220.2962, 0, 0, -1); //Stallion
+ChangeVehiclePaintjob(g_Vehicle[32], 0);
+g_Vehicle[33] = CreateVehicle(475, 539.0144, -1272.7447, 17.0473, 220.5057, 0, 0, -1); //Sabre
+ChangeVehiclePaintjob(g_Vehicle[33], 0);
+g_Vehicle[34] = CreateVehicle(561, -1954.5091, 303.7556, 40.8490, 127.8153, 0, 0, -1); //Stratum
+ChangeVehiclePaintjob(g_Vehicle[34], 0);
+g_Vehicle[35] = CreateVehicle(560, -1953.6627, 295.8308, 40.7332, 122.7552, 0, 0, -1); //Sultan
+g_Vehicle[36] = CreateVehicle(559, -1956.7553, 261.9169, 40.7240, 321.2893, 0, 0, -1); //Jester
+ChangeVehiclePaintjob(g_Vehicle[36], 0);
+g_Vehicle[37] = CreateVehicle(562, -1944.5246, 257.4244, 40.6767, 43.2891, 0, 0, -1); //Elegy
+ChangeVehiclePaintjob(g_Vehicle[37], 0);
+g_Vehicle[38] = CreateVehicle(565, -1945.3013, 266.2766, 40.6675, 111.2344, 0, 0, -1); //Flash
+ChangeVehiclePaintjob(g_Vehicle[38], 0);
+g_Vehicle[39] = CreateVehicle(558, -1946.1623, 273.1355, 40.6789, 112.5268, 0, 0, -1); //Uranus
+g_Vehicle[40] = CreateVehicle(436, -1955.1397, 301.7008, 35.2641, 123.1137, 0, 0, -1); //Previon
+ChangeVehiclePaintjob(g_Vehicle[40], 0);
+g_Vehicle[41] = CreateVehicle(410, -1955.2280, 295.0018, 35.1475, 120.9313, 0, 0, -1); //Manana
+ChangeVehiclePaintjob(g_Vehicle[41], 0);
+g_Vehicle[42] = CreateVehicle(540, -1947.3597, 270.3468, 35.3139, 65.8274, 0, 0, -1); //Vincent
+ChangeVehiclePaintjob(g_Vehicle[42], 0);
+g_Vehicle[43] = CreateVehicle(496, -1947.7463, 264.0515, 35.2084, 62.6497, 0, 0, -1); //Blista Compact
+g_Vehicle[44] = CreateVehicle(589, -1947.6170, 256.5307, 35.1137, 55.8734, 0, 0, -1); //Club
+ChangeVehiclePaintjob(g_Vehicle[44], 0);
+g_Vehicle[45] = CreateVehicle(403, -1990.1165, 243.0193, 35.7788, 89.4802, 0, 0, -1); //Linerunner
+ChangeVehiclePaintjob(g_Vehicle[45], 0);
+g_Vehicle[46] = CreateVehicle(515, -1989.2690, 248.3786, 36.1915, 91.8719, 0, 0, -1); //RoadTrain
+ChangeVehiclePaintjob(g_Vehicle[46], 0);
+g_Vehicle[47] = CreateVehicle(514, -1989.0974, 254.2160, 35.7649, 91.2229, 0, 0, -1); //Tanker
+g_Vehicle[48] = CreateVehicle(455, -1988.9472, 259.7879, 35.6370, 89.8567, 0, 0, -1); //Flatbed
+ChangeVehiclePaintjob(g_Vehicle[48], 0);
+g_Vehicle[49] = CreateVehicle(578, -1987.9678, 265.3547, 35.7947, 90.0569, 0, 0, -1); //DFT-30
+ChangeVehiclePaintjob(g_Vehicle[49], 0);
+g_Vehicle[50] = CreateVehicle(414, -1989.2416, 270.1491, 35.2728, 92.5342, 0, 0, -1); //Mule
+ChangeVehiclePaintjob(g_Vehicle[50], 0);
+g_Vehicle[51] = CreateVehicle(499, -1989.1962, 274.6394, 35.1607, 93.2070, 0, 0, -1); //Benson
+g_Vehicle[52] = CreateVehicle(498, -1986.9533, 304.7633, 35.2431, 89.5136, 0, 0, -1); //Boxville
+ChangeVehiclePaintjob(g_Vehicle[52], 0);
+g_Vehicle[53] = CreateVehicle(429, -1664.7905, 1222.5145, 20.8288, 189.4613, 0, 0, -1); //Banshee
+ChangeVehiclePaintjob(g_Vehicle[53], 0);
+g_Vehicle[54] = CreateVehicle(480, -1655.9586, 1216.4016, 20.9270, 92.4589, 0, 0, -1); //Comet
+ChangeVehiclePaintjob(g_Vehicle[54], 0);
+g_Vehicle[55] = CreateVehicle(477, -1648.4599, 1206.8355, 20.9066, 61.0760, 0, 0, -1); //ZR3 50
+g_Vehicle[56] = CreateVehicle(555, -1659.3605, 1205.8654, 20.8320, 356.7315, 0, 0, -1); //Windsor
+ChangeVehiclePaintjob(g_Vehicle[56], 0);
+g_Vehicle[57] = CreateVehicle(415, -1669.1561, 1205.5139, 20.9067, 316.9768, 0, 0, -1); //Cheetah
+ChangeVehiclePaintjob(g_Vehicle[57], 0);
+g_Vehicle[58] = CreateVehicle(541, -1674.0754, 1205.5949, 13.3072, 298.6856, 0, 0, -1); //Bullet
+ChangeVehiclePaintjob(g_Vehicle[58], 0);
+g_Vehicle[59] = CreateVehicle(506, -1646.7026, 1206.4967, 13.3431, 65.0839, 0, 0, -1); //Super GT
+g_Vehicle[60] = CreateVehicle(451, -1657.0443, 1216.7028, 13.3767, 95.0492, 0, 0, -1); //Turismo
+ChangeVehiclePaintjob(g_Vehicle[60], 0);
+g_Vehicle[61] = CreateVehicle(411, -1666.7260, 1223.7795, 13.4054, 224.1620, 0, 0, -1); //Infernus
+ChangeVehiclePaintjob(g_Vehicle[61], 0);
+g_Vehicle[62] = CreateVehicle(434, -1666.3315, 1215.5634, 7.2266, 254.4539, 0, 0, -1); //Hotknife
+ChangeVehiclePaintjob(g_Vehicle[62], 0);
+g_Vehicle[63] = CreateVehicle(545, -1652.2666, 1213.0666, 7.0611, 184.5959, 0, 0, -1); //Hustler
+g_Vehicle[64] = CreateVehicle(533, 2167.3293, 1415.5418, 10.5300, 88.8487, 0, 0, -1); //Feltzer
+ChangeVehiclePaintjob(g_Vehicle[64], 0);
+g_Vehicle[65] = CreateVehicle(402, 2167.1513, 1411.2714, 10.6506, 89.1615, 0, 0, -1); //Buffalo
+ChangeVehiclePaintjob(g_Vehicle[65], 0);
+g_Vehicle[66] = CreateVehicle(602, 2167.4353, 1407.0140, 10.6247, 91.3228, 0, 0, -1); //Alpha
+ChangeVehiclePaintjob(g_Vehicle[66], 0);
+g_Vehicle[67] = CreateVehicle(587, 2167.3474, 1402.4721, 10.5459, 91.5852, 0, 0, -1); //Euros
+g_Vehicle[68] = CreateVehicle(551, 2148.7829, 1409.5852, 10.6209, 359.2257, 0, 0, -1); //Merit
+ChangeVehiclePaintjob(g_Vehicle[68], 0);
+g_Vehicle[69] = CreateVehicle(516, 2142.2656, 1409.3182, 10.6444, 0.4381, 0, 0, -1); //Nebula
+ChangeVehiclePaintjob(g_Vehicle[69], 0);
+g_Vehicle[70] = CreateVehicle(401, 2135.9663, 1408.9056, 10.6006, 357.6068, 0, 0, -1); //Bravura
+ChangeVehiclePaintjob(g_Vehicle[70], 0);
+g_Vehicle[71] = CreateVehicle(526, 2129.5322, 1408.7812, 10.5888, 358.5909, 0, 0, -1); //Fortune
+g_Vehicle[72] = CreateVehicle(527, 2123.0825, 1408.6995, 10.5467, 359.8008, 0, 0, -1); //Cadrona
+ChangeVehiclePaintjob(g_Vehicle[72], 0);
+g_Vehicle[73] = CreateVehicle(547, 2116.6152, 1409.2740, 10.5545, 0.1641, 0, 0, -1); //Primo
+ChangeVehiclePaintjob(g_Vehicle[73], 0);
+g_Vehicle[74] = CreateVehicle(405, 2110.4799, 1409.1444, 10.6902, 0.6312, 0, 0, -1); //Sentinel
+ChangeVehiclePaintjob(g_Vehicle[74], 0);
+g_Vehicle[75] = CreateVehicle(421, 2103.9885, 1409.1944, 10.7048, 358.9472, 0, 0, -1); //Washington
+g_Vehicle[76] = CreateVehicle(426, 2145.6469, 1397.8651, 10.5429, 179.2776, 0, 0, -1); //Premier
+ChangeVehiclePaintjob(g_Vehicle[76], 0);
+g_Vehicle[77] = CreateVehicle(409, 2091.6330, 1402.9971, 10.5841, 179.1602, 0, 0, -1); //Stretch
+ChangeVehiclePaintjob(g_Vehicle[77], 0);
+g_Vehicle[78] = CreateVehicle(580, 2100.8117, 1397.6622, 10.5789, 180.8923, 0, 0, -1); //Stafford
+ChangeVehiclePaintjob(g_Vehicle[78], 0);
+g_Vehicle[79] = CreateVehicle(458, 2107.1328, 1397.5786, 10.6920, 180.2983, 0, 0, -1); //Solair
+g_Vehicle[80] = CreateVehicle(585, 2113.5432, 1397.4300, 10.4027, 179.7792, 0, 0, -1); //Emperor
+ChangeVehiclePaintjob(g_Vehicle[80], 0);
+g_Vehicle[81] = CreateVehicle(546, 2119.9602, 1397.7819, 10.5123, 180.1481, 0, 0, -1); //Intruder
+ChangeVehiclePaintjob(g_Vehicle[81], 0);
+g_Vehicle[82] = CreateVehicle(529, 2126.2875, 1397.9421, 10.4211, 179.7722, 0, 0, -1); //Willard
+ChangeVehiclePaintjob(g_Vehicle[82], 0);
+g_Vehicle[83] = CreateVehicle(550, 2132.5036, 1397.8114, 10.6201, 179.1587, 0, 0, -1); //Sunrise
+g_Vehicle[84] = CreateVehicle(507, 2139.1457, 1397.5333, 10.6480, 180.6562, 0, 0, -1); //Elegant
+ChangeVehiclePaintjob(g_Vehicle[84], 0);
+g_Vehicle[85] = CreateVehicle(482, 1742.1782, 1887.2543, 10.9500, 248.7183, 0, 0, -1); //Burrito
+ChangeVehiclePaintjob(g_Vehicle[85], 0);
+g_Vehicle[86] = CreateVehicle(459, 1742.4190, 1892.8731, 10.8683, 246.9752, 0, 0, -1); //Berkley's RC Van
+ChangeVehiclePaintjob(g_Vehicle[86], 0);
+g_Vehicle[87] = CreateVehicle(440, 1742.2415, 1899.1584, 10.9132, 248.6316, 0, 0, -1); //Rumpo
+g_Vehicle[88] = CreateVehicle(413, 1742.3131, 1905.8040, 10.9011, 245.0326, 0, 0, -1); //Pony
+ChangeVehiclePaintjob(g_Vehicle[88], 0);
+g_Vehicle[89] = CreateVehicle(418, 1742.1937, 1912.7755, 10.9400, 246.7335, 0, 0, -1); //Moonbeam
+ChangeVehiclePaintjob(g_Vehicle[89], 0);
+g_Vehicle[90] = CreateVehicle(483, 1742.5102, 1918.5668, 10.7924, 251.6361, 0, 0, -1); //Camper
+ChangeVehiclePaintjob(g_Vehicle[90], 0);
+g_Vehicle[91] = CreateVehicle(508, 1743.4631, 1924.3156, 11.1935, 246.6421, 0, 0, -1); //Journey
+g_Vehicle[92] = CreateVehicle(478, 1731.0108, 1935.4461, 10.8185, 122.3591, 0, 0, -1); //Walton
+ChangeVehiclePaintjob(g_Vehicle[92], 0);
+g_Vehicle[93] = CreateVehicle(600, 1730.9537, 1929.4929, 10.5613, 121.3009, 0, 0, -1); //Picador
+ChangeVehiclePaintjob(g_Vehicle[93], 0);
+g_Vehicle[94] = CreateVehicle(543, 1731.0549, 1923.8601, 10.5979, 117.6572, 0, 0, -1); //Sadler
+ChangeVehiclePaintjob(g_Vehicle[94], 0);
+g_Vehicle[95] = CreateVehicle(422, 1731.3094, 1918.1840, 10.8224, 120.3275, 0, 0, -1); //Bobcat
+g_Vehicle[96] = CreateVehicle(554, 1730.6450, 1912.3217, 10.9148, 113.0477, 0, 0, -1); //Yosemite
+ChangeVehiclePaintjob(g_Vehicle[96], 0);
+g_Vehicle[97] = CreateVehicle(500, 1731.6918, 1905.5668, 10.9553, 114.9232, 0, 0, -1); //Mesa
+ChangeVehiclePaintjob(g_Vehicle[97], 0);
+g_Vehicle[98] = CreateVehicle(489, 1731.0529, 1898.8032, 10.9238, 114.9337, 0, 0, -1); //Rancher
+ChangeVehiclePaintjob(g_Vehicle[98], 0);
+g_Vehicle[99] = CreateVehicle(579, 1730.8193, 1893.5832, 10.7262, 111.8071, 0, 0, -1); //Huntley
+g_Vehicle[100] = CreateVehicle(400, 1731.8012, 1888.2966, 10.8965, 109.8117, 0, 0, -1); //Landstalker
+ChangeVehiclePaintjob(g_Vehicle[100], 0);
+g_Vehicle[101] = CreateVehicle(522, 1745.4454, 1853.8837, 10.3823, 22.7849, 0, 0, -1); //NRG-500
+ChangeVehiclePaintjob(g_Vehicle[101], 0);
+g_Vehicle[102] = CreateVehicle(521, 1743.0616, 1853.8034, 10.3870, 27.2500, 0, 0, -1); //FCR-900
+ChangeVehiclePaintjob(g_Vehicle[102], 0);
+g_Vehicle[103] = CreateVehicle(461, 1740.6656, 1853.8891, 10.3943, 20.6217, 0, 0, -1); //PCJ-600
+g_Vehicle[104] = CreateVehicle(581, 1738.4527, 1853.8208, 10.4179, 25.0683, 0, 0, -1); //BF-400
+ChangeVehiclePaintjob(g_Vehicle[104], 0);
+g_Vehicle[105] = CreateVehicle(586, 1735.8594, 1853.8002, 10.3404, 25.3507, 0, 0, -1); //Wayfarer
+ChangeVehiclePaintjob(g_Vehicle[105], 0);
+g_Vehicle[106] = CreateVehicle(463, 1733.6459, 1853.6212, 10.3505, 20.0440, 0, 0, -1); //Freeway
+ChangeVehiclePaintjob(g_Vehicle[106], 0);
+g_Vehicle[107] = CreateVehicle(462, 1731.3869, 1853.6798, 10.4154, 14.4408, 0, 0, -1); //Faggio
+g_Vehicle[108] = CreateVehicle(510, 1728.9289, 1853.6403, 10.4280, 21.9769, 0, 0, -1); //Mountain Bike
+ChangeVehiclePaintjob(g_Vehicle[108], 0);
+g_Vehicle[109] = CreateVehicle(481, 1726.8937, 1853.7448, 10.3339, 18.0732, 0, 0, -1); //BMX
+ChangeVehiclePaintjob(g_Vehicle[109], 0);
+g_Vehicle[110] = CreateVehicle(509, 1724.7404, 1853.6596, 10.3323, 21.4300, 0, 0, -1); //Bike
+ChangeVehiclePaintjob(g_Vehicle[110], 0);
+g_Vehicle[111] = CreateVehicle(571, 1748.5921, 1853.9467, 10.1040, 22.3561, 0, 0, -1); //Kart
+g_Vehicle[112] = CreateVehicle(494, 1730.8789, 1961.5391, 10.7156, 131.1479, 0, 0, -1); //Hotring
+ChangeVehiclePaintjob(g_Vehicle[112], 0);
+g_Vehicle[113] = CreateVehicle(502, 1731.0252, 1951.5991, 10.7065, 128.4916, 0, 0, -1); //Hotring Racer A
+ChangeVehiclePaintjob(g_Vehicle[113], 0);
+g_Vehicle[114] = CreateVehicle(503, 1730.9389, 1956.5202, 10.7178, 129.7570, 0, 0, -1); //Hotring Racer B
+ChangeVehiclePaintjob(g_Vehicle[114], 0);
+g_Vehicle[115] = CreateVehicle(504, 1730.7680, 1945.8851, 10.6003, 129.7106, 0, 0, -1); //Bloodring Banger
+g_Vehicle[116] = CreateVehicle(470, 1731.1206, 1940.5462, 10.8158, 129.8719, 0, 0, -1); //Patriot
+ChangeVehiclePaintjob(g_Vehicle[116], 0);
+g_Vehicle[117] = CreateVehicle(588, 1743.7060, 1930.7261, 10.7168, 247.4606, 0, 0, -1); //Hotdog
+ChangeVehiclePaintjob(g_Vehicle[117], 0);
+g_Vehicle[118] = CreateVehicle(423, 1742.0584, 1937.4095, 10.8545, 251.2669, 0, 0, -1); //Mr Whoopee
+ChangeVehiclePaintjob(g_Vehicle[118], 0);
+g_Vehicle[119] = CreateVehicle(457, 1740.9691, 1941.8813, 10.4483, 248.7418, 0, 0, -1); //Caddy
+g_Vehicle[120] = CreateVehicle(431, 1745.2723, 1944.8096, 10.9299, 246.4376, 0, 0, -1); //Bus
+ChangeVehiclePaintjob(g_Vehicle[120], 0);
+g_Vehicle[121] = CreateVehicle(437, 1744.8223, 1950.7066, 10.9563, 243.2662, 0, 0, -1); //Coach
+ChangeVehiclePaintjob(g_Vehicle[121], 0);
+g_Vehicle[122] = CreateVehicle(443, 1749.2531, 1954.0786, 11.4614, 242.8166, 0, 0, -1); //Packer
+ChangeVehiclePaintjob(g_Vehicle[122], 0);
+g_Vehicle[123] = CreateVehicle(531, 1741.4456, 1963.2841, 10.7848, 247.7601, 0, 0, -1); //Tractor
+g_Vehicle[124] = CreateVehicle(593, 416.5797, 2441.9992, 16.9638, 50.5635, 0, 0, -1); //Dodo
+ChangeVehiclePaintjob(g_Vehicle[124], 0);
+g_Vehicle[125] = CreateVehicle(487, 416.6915, 2456.5126, 16.7014, 59.7901, 0, 0, -1); //Maverick
+ChangeVehiclePaintjob(g_Vehicle[125], 0);
+g_Vehicle[126] = CreateVehicle(469, 416.6101, 2466.2858, 16.5125, 55.8138, 0, 0, -1); //Sparrow
+ChangeVehiclePaintjob(g_Vehicle[126], 0);
+g_Vehicle[127] = CreateVehicle(519, 395.7402, 2446.1538, 17.4251, 316.7832, 0, 0, -1); //Shamal
+g_Vehicle[128] = CreateVehicle(511, 394.1465, 2465.0300, 17.8971, 307.4320, 0, 0, -1); //Beagle
+ChangeVehiclePaintjob(g_Vehicle[128], 0);
+g_Vehicle[129] = CreateVehicle(553, 386.0769, 2541.9633, 17.8791, 140.4490, 0, 0, -1); //Nevada
+ChangeVehiclePaintjob(g_Vehicle[129], 0);
+g_Vehicle[130] = CreateVehicle(417, 345.2695, 2538.1767, 16.8533, 175.8730, 0, 0, -1); //Leviathan
+ChangeVehiclePaintjob(g_Vehicle[130], 0);
+g_Vehicle[131] = CreateVehicle(512, 325.3020, 2539.3100, 17.0865, 177.6902, 0, 0, -1); //Cropdust
+g_Vehicle[132] = CreateVehicle(513, 291.1661, 2540.0751, 17.3999, 173.1600, 0, 0, -1); //Stunt
+ChangeVehiclePaintjob(g_Vehicle[132], 0);
+g_Vehicle[133] = CreateVehicle(420, 1792.5676, -1868.2952, 13.2887, 0.0000, 0, 0, -1); //Taxi
+ChangeVehiclePaintjob(g_Vehicle[133], 0);
+g_Vehicle[134] = CreateVehicle(420, 1807.7679, -1868.5152, 13.2887, 0.0000, 0, 0, -1); //Taxi
+ChangeVehiclePaintjob(g_Vehicle[134], 0);
+g_Vehicle[135] = CreateVehicle(420, 1805.2648, -1901.7775, 13.1195, 0.0000, 0, 0, -1); //Taxi
+g_Vehicle[136] = CreateVehicle(420, 1805.2053, -1932.5355, 13.0517, 0.0000, 0, 0, -1); //Taxi
+ChangeVehiclePaintjob(g_Vehicle[136], 0);
+g_Vehicle[137] = CreateVehicle(420, 1775.7917, -1932.4465, 13.0517, 0.0000, 0, 0, -1); //Taxi
+ChangeVehiclePaintjob(g_Vehicle[137], 0);
+g_Vehicle[138] = CreateVehicle(420, 1783.2332, -1932.4964, 13.0517, 0.0000, 0, 0, -1); //Taxi
+ChangeVehiclePaintjob(g_Vehicle[138], 0);
+g_Vehicle[139] = CreateVehicle(420, 1798.8303, -1932.5427, 13.0517, 0.0000, 0, 0, -1); //Taxi
+g_Vehicle[140] = CreateVehicle(420, 1791.2924, -1932.4643, 13.0517, 0.0000, 0, 0, -1); //Taxi
+ChangeVehiclePaintjob(g_Vehicle[140], 0);
+g_Vehicle[141] = CreateVehicle(438, 1775.7084, -1916.0462, 13.2771, 0.0000, 0, 0, -1); //Cabbie
+ChangeVehiclePaintjob(g_Vehicle[141], 0);
+g_Vehicle[142] = CreateVehicle(420, 1805.3809, -1917.4658, 13.1195, 0.0000, 0, 0, -1); //Taxi
+ChangeVehiclePaintjob(g_Vehicle[142], 0);
+g_Vehicle[143] = CreateVehicle(420, -1986.7380, 106.9412, 27.2297, 0.0000, 0, 0, -1); //Taxi
+g_Vehicle[144] = CreateVehicle(438, -1986.7380, 114.9412, 27.2297, 0.0000, 0, 0, -1); //Cabbie
+ChangeVehiclePaintjob(g_Vehicle[144], 0);
+g_Vehicle[145] = CreateVehicle(420, -1986.7380, 125.9412, 27.2297, 0.0000, 0, 0, -1); //Taxi
+ChangeVehiclePaintjob(g_Vehicle[145], 0);
+g_Vehicle[146] = CreateVehicle(420, -1986.7380, 138.4411, 27.2297, 0.0000, 0, 0, -1); //Taxi
+ChangeVehiclePaintjob(g_Vehicle[146], 0);
+g_Vehicle[147] = CreateVehicle(438, -1986.7380, 145.4411, 27.2297, 0.0000, 0, 0, -1); //Cabbie
+g_Vehicle[148] = CreateVehicle(420, -1986.7380, 155.9411, 27.2297, 0.0000, 0, 0, -1); //Taxi
+ChangeVehiclePaintjob(g_Vehicle[148], 0);
+g_Vehicle[149] = CreateVehicle(420, -1986.7380, 171.4411, 27.2297, 0.0000, 0, 0, -1); //Taxi
+ChangeVehiclePaintjob(g_Vehicle[149], 0);
+g_Vehicle[150] = CreateVehicle(420, -1986.7380, 178.4411, 27.2297, 0.0000, 0, 0, -1); //Taxi
+ChangeVehiclePaintjob(g_Vehicle[150], 0);
+g_Vehicle[151] = CreateVehicle(420, -1986.7380, 185.4411, 27.2297, 0.0000, 0, 0, -1); //Taxi
+g_Vehicle[152] = CreateVehicle(438, 1687.2934, 1297.4829, 10.5615, 180.0000, 0, 0, -1); //Cabbie
+ChangeVehiclePaintjob(g_Vehicle[152], 0);
+g_Vehicle[153] = CreateVehicle(420, 1695.2934, 1297.4829, 10.5615, 180.0000, 0, 0, -1); //Taxi
+ChangeVehiclePaintjob(g_Vehicle[153], 0);
+g_Vehicle[154] = CreateVehicle(420, 1695.7934, 1305.9829, 10.5615, 0.0000, 0, 0, -1); //Taxi
+ChangeVehiclePaintjob(g_Vehicle[154], 0);
+g_Vehicle[155] = CreateVehicle(420, 1691.7934, 1305.9829, 10.5615, 0.0000, 0, 0, -1); //Taxi
+g_Vehicle[156] = CreateVehicle(438, 1688.2934, 1305.9829, 10.5615, 0.0000, 0, 0, -1); //Cabbie
+ChangeVehiclePaintjob(g_Vehicle[156], 0);
+g_Vehicle[157] = CreateVehicle(420, 1681.7934, 1305.9829, 10.5615, 0.0000, 0, 0, -1); //Taxi
+ChangeVehiclePaintjob(g_Vehicle[157], 0);
+g_Vehicle[158] = CreateVehicle(420, 1688.3271, 1287.1450, 10.5615, 0.0000, 0, 0, -1); //Taxi
+ChangeVehiclePaintjob(g_Vehicle[158], 0);
+g_Vehicle[159] = CreateVehicle(420, 1693.8271, 1287.1450, 10.5615, 0.0000, 0, 0, -1); //Taxi
+g_Vehicle[160] = CreateVehicle(438, 1699.3271, 1287.1450, 10.5615, 0.0000, 0, 0, -1); //Cabbie
+ChangeVehiclePaintjob(g_Vehicle[160], 0);
+g_Vehicle[161] = CreateVehicle(420, 1703.3271, 1287.1450, 10.5615, 0.0000, 0, 0, -1); //Taxi
+ChangeVehiclePaintjob(g_Vehicle[161], 0);
+g_Vehicle[162] = CreateVehicle(420, 1706.8271, 1287.1450, 10.5615, 0.0000, 0, 0, -1); //Taxi
+ChangeVehiclePaintjob(g_Vehicle[162], 0);
+g_Vehicle[163] = CreateVehicle(420, 1711.8271, 1287.1450, 10.5615, 0.0000, 0, 0, -1); //Taxi
+g_Vehicle[164] = CreateVehicle(438, 1709.3271, 1316.1450, 10.5615, 180.0000, 0, 0, -1); //Cabbie
+ChangeVehiclePaintjob(g_Vehicle[164], 0);
+g_Vehicle[165] = CreateVehicle(420, 1703.3271, 1316.1450, 10.5615, 180.0000, 0, 0, -1); //Taxi
+ChangeVehiclePaintjob(g_Vehicle[165], 0);
+g_Vehicle[166] = CreateVehicle(438, 1698.3271, 1316.1450, 10.5615, 180.0000, 0, 0, -1); //Cabbie
+ChangeVehiclePaintjob(g_Vehicle[166], 0);
+g_Vehicle[167] = CreateVehicle(420, 1694.8271, 1316.1450, 10.5615, 180.0000, 0, 0, -1); //Taxi
+g_Vehicle[168] = CreateVehicle(438, 1691.3271, 1316.1450, 10.5615, 180.0000, 0, 0, -1); //Cabbie
+ChangeVehiclePaintjob(g_Vehicle[168], 0);
+g_Vehicle[169] = CreateVehicle(414, -494.4159, -472.8648, 25.5097, 180.0000, 0, 0, -1); //Mule
+ChangeVehiclePaintjob(g_Vehicle[169], 0);
+g_Vehicle[170] = CreateVehicle(456, -499.3518, -473.3605, 25.5403, 180.0000, 0, 0, -1); //Yankee
+ChangeVehiclePaintjob(g_Vehicle[170], 0);
+g_Vehicle[171] = CreateVehicle(498, -504.5551, -473.4075, 25.4323, 180.0000, 0, 0, -1); //Boxville
+g_Vehicle[172] = CreateVehicle(498, -510.0538, -473.4274, 25.4323, 180.0000, 0, 0, -1); //Boxville
+ChangeVehiclePaintjob(g_Vehicle[172], 0);
+g_Vehicle[173] = CreateVehicle(498, -529.0537, -473.4274, 25.4323, 180.0000, 0, 0, -1); //Boxville
+ChangeVehiclePaintjob(g_Vehicle[173], 0);
+g_Vehicle[174] = CreateVehicle(498, -544.5537, -473.4274, 25.4323, 180.0000, 0, 0, -1); //Boxville
+ChangeVehiclePaintjob(g_Vehicle[174], 0);
+g_Vehicle[175] = CreateVehicle(498, -559.5537, -473.4274, 25.4323, 180.0000, 0, 0, -1); //Boxville
+g_Vehicle[176] = CreateVehicle(498, -572.5537, -473.4274, 25.4323, 180.0000, 0, 0, -1); //Boxville
+ChangeVehiclePaintjob(g_Vehicle[176], 0);
+g_Vehicle[177] = CreateVehicle(498, -589.0537, -473.4274, 25.4323, 180.0000, 0, 0, -1); //Boxville
+ChangeVehiclePaintjob(g_Vehicle[177], 0);
+g_Vehicle[178] = CreateVehicle(456, -514.8518, -473.3605, 25.5403, 180.0000, 0, 0, -1); //Yankee
+ChangeVehiclePaintjob(g_Vehicle[178], 0);
+g_Vehicle[179] = CreateVehicle(456, -533.8518, -473.3605, 25.5403, 180.0000, 0, 0, -1); //Yankee
+g_Vehicle[180] = CreateVehicle(456, -564.8518, -473.3605, 25.5408, 180.0000, 0, 0, -1); //Yankee
+ChangeVehiclePaintjob(g_Vehicle[180], 0);
+g_Vehicle[181] = CreateVehicle(456, -577.3518, -473.3605, 25.5403, 180.0000, 0, 0, -1); //Yankee
+ChangeVehiclePaintjob(g_Vehicle[181], 0);
+g_Vehicle[182] = CreateVehicle(456, -583.3518, -473.3605, 25.5403, 180.0000, 0, 0, -1); //Yankee
+ChangeVehiclePaintjob(g_Vehicle[182], 0);
+g_Vehicle[183] = CreateVehicle(414, -519.4160, -472.8648, 25.5097, 180.0000, 0, 0, -1); //Mule
+g_Vehicle[184] = CreateVehicle(414, -550.4160, -472.8648, 25.5097, 180.0000, 0, 0, -1); //Mule
+ChangeVehiclePaintjob(g_Vehicle[184], 0);
+g_Vehicle[185] = CreateVehicle(456, -489.3518, -473.3605, 25.5403, 180.0000, 0, 0, -1); //Yankee
+ChangeVehiclePaintjob(g_Vehicle[185], 0);
+g_Vehicle[186] = CreateVehicle(456, -483.3518, -473.3605, 25.5403, 180.0000, 0, 0, -1); //Yankee
+ChangeVehiclePaintjob(g_Vehicle[186], 0);
+g_Vehicle[187] = CreateVehicle(414, -478.4159, -472.8648, 25.5097, 180.0000, 0, 0, -1); //Mule
+g_Vehicle[188] = CreateVehicle(414, -473.4159, -472.8648, 25.5097, 180.0000, 0, 0, -1); //Mule
+ChangeVehiclePaintjob(g_Vehicle[188], 0);
+g_Vehicle[189] = CreateVehicle(414, -469.7828, -488.2091, 25.5097, 180.0000, 0, 0, -1); //Mule
+ChangeVehiclePaintjob(g_Vehicle[189], 0);
+g_Vehicle[190] = CreateVehicle(414, -489.7828, -488.2091, 25.5097, 180.0000, 0, 0, -1); //Mule
+ChangeVehiclePaintjob(g_Vehicle[190], 0);
+g_Vehicle[191] = CreateVehicle(414, -540.2828, -488.2091, 25.5097, 180.0000, 0, 0, -1); //Mule
+g_Vehicle[192] = CreateVehicle(414, -564.7828, -488.2091, 25.5097, 180.0000, 0, 0, -1); //Mule
+ChangeVehiclePaintjob(g_Vehicle[192], 0);
+g_Vehicle[193] = CreateVehicle(414, -589.2828, -488.2091, 25.5097, 180.0000, 0, 0, -1); //Mule
+ChangeVehiclePaintjob(g_Vehicle[193], 0);
+g_Vehicle[194] = CreateVehicle(456, -579.6942, -488.2058, 25.5403, 180.0000, 0, 0, -1); //Yankee
+ChangeVehiclePaintjob(g_Vehicle[194], 0);
+g_Vehicle[195] = CreateVehicle(498, -500.5239, -488.8626, 25.4323, 180.0000, 0, 0, -1); //Boxville
+g_Vehicle[196] = CreateVehicle(499, -615.4957, -480.0750, 25.5963, 269.0000, 0, 0, -1); //Benson
+ChangeVehiclePaintjob(g_Vehicle[196], 0);
+g_Vehicle[197] = CreateVehicle(499, -615.3095, -490.5563, 25.5963, 269.0000, 0, 0, -1); //Benson
+ChangeVehiclePaintjob(g_Vehicle[197], 0);
+g_Vehicle[198] = CreateVehicle(499, -615.4362, -500.5580, 25.5963, 269.0000, 0, 0, -1); //Benson
+ChangeVehiclePaintjob(g_Vehicle[198], 0);
+g_Vehicle[199] = CreateVehicle(499, -615.4329, -527.0305, 25.5963, 269.0000, 0, 0, -1); //Benson
+g_Vehicle[200] = CreateVehicle(499, -615.8845, -537.6530, 25.5963, 269.0000, 0, 0, -1); //Benson
+ChangeVehiclePaintjob(g_Vehicle[200], 0);
+g_Vehicle[201] = CreateVehicle(499, -616.0969, -547.9349, 25.5963, 269.0000, 0, 0, -1); //Benson
+ChangeVehiclePaintjob(g_Vehicle[201], 0);
+g_Vehicle[202] = CreateVehicle(525, -70.2934, -1183.2386, 3.8183, 62.2332, 0, 0, -1); //Tow Truck
+ChangeVehiclePaintjob(g_Vehicle[202], 0);
+g_Vehicle[203] = CreateVehicle(525, -68.2949, -1179.5152, 3.8227, 63.1441, 0, 0, -1); //Tow Truck
+g_Vehicle[204] = CreateVehicle(525, -66.2580, -1175.7119, 3.8190, 62.4024, 0, 0, -1); //Tow Truck
+ChangeVehiclePaintjob(g_Vehicle[204], 0);
+g_Vehicle[205] = CreateVehicle(525, -64.1821, -1171.7624, 3.8280, 61.9291, 0, 0, -1); //Tow Truck
+ChangeVehiclePaintjob(g_Vehicle[205], 0);
+g_Vehicle[206] = CreateVehicle(532, -390.6043, -1476.0157, 26.7040, 259.4740, 0, 0, -1); //Combine
+ChangeVehiclePaintjob(g_Vehicle[206], 0);
+g_Vehicle[207] = CreateVehicle(532, -385.4730, -1464.7229, 26.7118, 227.2514, 0, 0, -1); //Combine
+g_Vehicle[208] = CreateVehicle(532, -372.5443, -1462.4512, 26.7361, 224.9722, 0, 0, -1); //Combine
+ChangeVehiclePaintjob(g_Vehicle[208], 0);
+g_Vehicle[209] = CreateVehicle(532, -375.7855, -1473.6922, 26.7206, 224.9665, 0, 0, -1); //Combine
+ChangeVehiclePaintjob(g_Vehicle[209], 0);
+g_Vehicle[210] = CreateVehicle(532, -379.8320, -1484.0332, 26.6969, 223.9689, 0, 0, -1); //Combine
+ChangeVehiclePaintjob(g_Vehicle[210], 0);
+g_Vehicle[211] = CreateVehicle(532, -389.1243, -1491.8771, 26.1874, 314.5270, 0, 0, -1); //Combine
+g_Vehicle[212] = CreateVehicle(532, -382.0925, -1499.5638, 25.4493, 314.7048, 0, 0, -1); //Combine
+ChangeVehiclePaintjob(g_Vehicle[212], 0);
+g_Vehicle[213] = CreateVehicle(512, 113.9074, -149.5789, 2.6259, 0.0000, 0, 0, -1); //Cropdust
+ChangeVehiclePaintjob(g_Vehicle[213], 0);
+g_Vehicle[214] = CreateVehicle(512, 100.6950, -149.6277, 2.4210, 0.0000, 0, 0, -1); //Cropdust
+ChangeVehiclePaintjob(g_Vehicle[214], 0);
+g_Vehicle[215] = CreateVehicle(512, 85.7684, -149.6107, 2.3993, 0.0000, 0, 0, -1); //Cropdust
+g_Vehicle[216] = CreateVehicle(512, 107.3081, -165.0337, 1.9027, 359.5589, 0, 0, -1); //Cropdust
+ChangeVehiclePaintjob(g_Vehicle[216], 0);
+g_Vehicle[217] = CreateVehicle(512, 91.4989, -164.7864, 1.9041, 0.0445, 0, 0, -1); //Cropdust
+ChangeVehiclePaintjob(g_Vehicle[217], 0);
+g_Vehicle[218] = CreateVehicle(408, -1913.5554, -1702.3321, 22.5969, 270.0000, 0, 0, -1); //Trashmaster
+ChangeVehiclePaintjob(g_Vehicle[218], 0);
+g_Vehicle[219] = CreateVehicle(408, -1913.5554, -1707.8321, 22.5969, 270.0000, 0, 0, -1); //Trashmaster
+g_Vehicle[220] = CreateVehicle(408, -1914.0554, -1713.8321, 22.5969, 270.0000, 0, 0, -1); //Trashmaster
+ChangeVehiclePaintjob(g_Vehicle[220], 0);
+g_Vehicle[221] = CreateVehicle(408, -1913.5554, -1719.8321, 22.5969, 270.0000, 0, 0, -1); //Trashmaster
+ChangeVehiclePaintjob(g_Vehicle[221], 0);
+g_Vehicle[222] = CreateVehicle(408, -1913.5554, -1726.3321, 22.5969, 270.0000, 0, 0, -1); //Trashmaster
+ChangeVehiclePaintjob(g_Vehicle[222], 0);
+g_Vehicle[223] = CreateVehicle(408, -1913.5554, -1732.8321, 22.5969, 270.0000, 0, 0, -1); //Trashmaster
+g_Vehicle[224] = CreateVehicle(408, -1901.7542, -1702.9012, 22.5969, 180.0000, 0, 0, -1); //Trashmaster
+ChangeVehiclePaintjob(g_Vehicle[224], 0);
+g_Vehicle[225] = CreateVehicle(408, -1896.7542, -1702.9012, 22.5969, 180.0000, 0, 0, -1); //Trashmaster
+ChangeVehiclePaintjob(g_Vehicle[225], 0);
+g_Vehicle[226] = CreateVehicle(408, -1892.2542, -1702.9012, 22.5969, 180.0000, 0, 0, -1); //Trashmaster
+ChangeVehiclePaintjob(g_Vehicle[226], 0);
+g_Vehicle[227] = CreateVehicle(408, -1879.0312, -1739.9549, 22.5969, 33.7281, 0, 0, -1); //Trashmaster
+g_Vehicle[228] = CreateVehicle(408, -1884.2615, -1743.0443, 22.5969, 33.7281, 0, 0, -1); //Trashmaster
+ChangeVehiclePaintjob(g_Vehicle[228], 0);
+g_Vehicle[229] = CreateVehicle(408, -1889.2465, -1746.0832, 22.5969, 33.7281, 0, 0, -1); //Trashmaster
+ChangeVehiclePaintjob(g_Vehicle[229], 0);
+g_Vehicle[230] = CreateVehicle(408, -1894.2480, -1748.9353, 22.5969, 33.7281, 0, 0, -1); //Trashmaster
+ChangeVehiclePaintjob(g_Vehicle[230], 0);
+g_Vehicle[231] = CreateVehicle(408, -1898.6695, -1751.6755, 22.5969, 33.7281, 0, 0, -1); //Trashmaster
+g_Vehicle[232] = CreateVehicle(596, 1601.9472, -1696.1240, 5.6107, 89.0810, 0, 0, -1); //Police Car (LSPD)
+ChangeVehiclePaintjob(g_Vehicle[232], 0);
+g_Vehicle[233] = CreateVehicle(596, 1602.1748, -1691.9041, 5.6110, 88.4362, 0, 0, -1); //Police Car (LSPD)
+ChangeVehiclePaintjob(g_Vehicle[233], 0);
+g_Vehicle[234] = CreateVehicle(596, 1602.0411, -1700.2919, 5.6110, 88.6648, 0, 0, -1); //Police Car (LSPD)
+ChangeVehiclePaintjob(g_Vehicle[234], 0);
+g_Vehicle[235] = CreateVehicle(596, 1601.8983, -1704.0681, 5.6114, 89.3552, 0, 0, -1); //Police Car (LSPD)
+g_Vehicle[236] = CreateVehicle(596, 1587.3388, -1710.4361, 5.6118, 1.0410, 0, 0, -1); //Police Car (LSPD)
+ChangeVehiclePaintjob(g_Vehicle[236], 0);
+g_Vehicle[237] = CreateVehicle(596, 1583.4727, -1710.5019, 5.6119, 359.4708, 0, 0, -1); //Police Car (LSPD)
+ChangeVehiclePaintjob(g_Vehicle[237], 0);
+g_Vehicle[238] = CreateVehicle(402, 1545.2308, -1680.1783, 5.7223, 89.2245, 0, 0, -1); //Buffalo
+ChangeVehiclePaintjob(g_Vehicle[238], 0);
+g_Vehicle[239] = CreateVehicle(411, 1544.4466, -1676.0833, 5.6177, 89.6164, 0, 0, -1); //Infernus
+g_Vehicle[240] = CreateVehicle(599, 1570.1743, -1710.9040, 6.0788, 0.5127, 0, 0, -1); //Police Ranger
+ChangeVehiclePaintjob(g_Vehicle[240], 0);
+g_Vehicle[241] = CreateVehicle(599, 1574.3671, -1710.9801, 6.0787, 0.3932, 0, 0, -1); //Police Ranger
+ChangeVehiclePaintjob(g_Vehicle[241], 0);
+g_Vehicle[242] = CreateVehicle(523, 1583.7402, -1668.5023, 5.4657, 88.7599, 0, 0, -1); //HPV1000
+ChangeVehiclePaintjob(g_Vehicle[242], 0);
+g_Vehicle[243] = CreateVehicle(523, 1583.7308, -1671.5285, 5.4636, 87.6115, 0, 0, -1); //HPV1000
+g_Vehicle[244] = CreateVehicle(523, 1583.8281, -1674.2369, 5.4653, 89.9781, 0, 0, -1); //HPV1000
+ChangeVehiclePaintjob(g_Vehicle[244], 0);
+g_Vehicle[245] = CreateVehicle(427, 1538.5195, -1645.3208, 6.0223, 178.7787, 0, 0, -1); //Enforcer
+ChangeVehiclePaintjob(g_Vehicle[245], 0);
+g_Vehicle[246] = CreateVehicle(427, 1534.8189, -1645.2932, 6.0222, 178.9228, 0, 0, -1); //Enforcer
+ChangeVehiclePaintjob(g_Vehicle[246], 0);
+g_Vehicle[247] = CreateVehicle(601, 1526.7193, -1644.9722, 5.6494, 179.5713, 0, 0, -1); //S.W.A.T. Van
+g_Vehicle[248] = CreateVehicle(596, 1601.9880, -1687.8237, 5.6110, 89.6723, 0, 0, -1); //Police Car (LSPD)
+ChangeVehiclePaintjob(g_Vehicle[248], 0);
+g_Vehicle[249] = CreateVehicle(596, 1602.2768, -1684.0153, 5.6118, 89.6658, 0, 0, -1); //Police Car (LSPD)
+ChangeVehiclePaintjob(g_Vehicle[249], 0);
+g_Vehicle[250] = CreateVehicle(596, 1591.4995, -1710.3189, 5.6104, 359.6987, 0, 0, -1); //Police Car (LSPD)
+ChangeVehiclePaintjob(g_Vehicle[250], 0);
+g_Vehicle[251] = CreateVehicle(596, 1595.5187, -1710.3880, 5.6108, 358.7048, 0, 0, -1); //Police Car (LSPD)
+g_Vehicle[252] = CreateVehicle(528, 1546.5891, -1654.8442, 5.9344, 90.4177, 0, 0, -1); //FBI Truck
+ChangeVehiclePaintjob(g_Vehicle[252], 0);
+g_Vehicle[253] = CreateVehicle(528, 1546.4628, -1650.9555, 5.9348, 90.2690, 0, 0, -1); //FBI Truck
+ChangeVehiclePaintjob(g_Vehicle[253], 0);
+g_Vehicle[254] = CreateVehicle(601, 1530.5052, -1644.9598, 5.6494, 179.5480, 0, 0, -1); //S.W.A.T. Van
+ChangeVehiclePaintjob(g_Vehicle[254], 0);
+g_Vehicle[255] = CreateVehicle(597, -1588.1722, 749.2943, -5.5778, 0.0000, 0, 0, -1); //Police Car (SFPD)
+g_Vehicle[256] = CreateVehicle(597, -1592.2081, 749.1027, -5.5778, 0.0000, 0, 0, -1); //Police Car (SFPD)
+ChangeVehiclePaintjob(g_Vehicle[256], 0);
+g_Vehicle[257] = CreateVehicle(597, -1596.2934, 749.4323, -5.5778, 0.0000, 0, 0, -1); //Police Car (SFPD)
+ChangeVehiclePaintjob(g_Vehicle[257], 0);
+g_Vehicle[258] = CreateVehicle(597, -1600.3526, 749.0949, -5.5778, 0.0000, 0, 0, -1); //Police Car (SFPD)
+ChangeVehiclePaintjob(g_Vehicle[258], 0);
+g_Vehicle[259] = CreateVehicle(597, -1604.2867, 749.3167, -5.5778, 0.0000, 0, 0, -1); //Police Car (SFPD)
+g_Vehicle[260] = CreateVehicle(597, -1575.0361, 742.6934, -5.5778, 90.0000, 0, 0, -1); //Police Car (SFPD)
+ChangeVehiclePaintjob(g_Vehicle[260], 0);
+g_Vehicle[261] = CreateVehicle(597, -1574.9946, 738.4707, -5.5778, 90.0000, 0, 0, -1); //Police Car (SFPD)
+ChangeVehiclePaintjob(g_Vehicle[261], 0);
+g_Vehicle[262] = CreateVehicle(597, -1575.1071, 735.0408, -5.5778, 90.0000, 0, 0, -1); //Police Car (SFPD)
+ChangeVehiclePaintjob(g_Vehicle[262], 0);
+g_Vehicle[263] = CreateVehicle(597, -1575.0322, 730.9658, -5.5778, 90.0000, 0, 0, -1); //Police Car (SFPD)
+g_Vehicle[264] = CreateVehicle(597, -1575.1212, 722.3820, -5.5778, 90.0000, 0, 0, -1); //Police Car (SFPD)
+ChangeVehiclePaintjob(g_Vehicle[264], 0);
+g_Vehicle[265] = CreateVehicle(597, -1575.0864, 718.5404, -5.5778, 90.0000, 0, 0, -1); //Police Car (SFPD)
+ChangeVehiclePaintjob(g_Vehicle[265], 0);
+g_Vehicle[266] = CreateVehicle(599, -1574.7536, 714.1425, -5.1303, 90.0000, 0, 0, -1); //Police Ranger
+ChangeVehiclePaintjob(g_Vehicle[266], 0);
+g_Vehicle[267] = CreateVehicle(599, -1574.6226, 710.4202, -5.1303, 90.0000, 0, 0, -1); //Police Ranger
+g_Vehicle[268] = CreateVehicle(599, -1574.6933, 706.5903, -5.1303, 90.0000, 0, 0, -1); //Police Ranger
+ChangeVehiclePaintjob(g_Vehicle[268], 0);
+g_Vehicle[269] = CreateVehicle(597, -1599.5576, 693.3071, -5.5778, 180.0000, 0, 0, -1); //Police Car (SFPD)
+ChangeVehiclePaintjob(g_Vehicle[269], 0);
+g_Vehicle[270] = CreateVehicle(597, -1608.8636, 693.0084, -5.5778, 180.0000, 0, 0, -1); //Police Car (SFPD)
+ChangeVehiclePaintjob(g_Vehicle[270], 0);
+g_Vehicle[271] = CreateVehicle(597, -1612.5467, 692.6500, -5.5778, 180.0000, 0, 0, -1); //Police Car (SFPD)
+g_Vehicle[272] = CreateVehicle(411, -1639.4523, 662.1885, -5.5416, -90.0000, 0, 0, -1); //Infernus
+ChangeVehiclePaintjob(g_Vehicle[272], 0);
+g_Vehicle[273] = CreateVehicle(415, -1639.3488, 666.1519, -5.5416, -90.0000, 0, 0, -1); //Cheetah
+ChangeVehiclePaintjob(g_Vehicle[273], 0);
+g_Vehicle[274] = CreateVehicle(413, -1639.1108, 669.9014, -5.2635, -90.0000, 0, 0, -1); //Pony
+ChangeVehiclePaintjob(g_Vehicle[274], 0);
+g_Vehicle[275] = CreateVehicle(601, -1638.7814, 678.3526, -5.4682, -90.0000, 0, 0, -1); //S.W.A.T. Van
+g_Vehicle[276] = CreateVehicle(601, -1638.8115, 682.3325, -5.4682, -90.0000, 0, 0, -1); //S.W.A.T. Van
+ChangeVehiclePaintjob(g_Vehicle[276], 0);
+g_Vehicle[277] = CreateVehicle(427, -1628.3209, 691.4453, -5.0293, 180.0000, 0, 0, -1); //Enforcer
+ChangeVehiclePaintjob(g_Vehicle[277], 0);
+g_Vehicle[278] = CreateVehicle(427, -1624.6457, 691.1702, -5.0293, 180.0000, 0, 0, -1); //Enforcer
+ChangeVehiclePaintjob(g_Vehicle[278], 0);
+g_Vehicle[279] = CreateVehicle(427, -1621.0148, 691.4860, -5.0293, 180.0000, 0, 0, -1); //Enforcer
+g_Vehicle[280] = CreateVehicle(426, -1639.1274, 658.2158, -5.5682, -90.0000, 0, 0, -1); //Premier
+ChangeVehiclePaintjob(g_Vehicle[280], 0);
+g_Vehicle[281] = CreateVehicle(523, -1617.3679, 731.1094, -5.6016, 0.0000, 0, 0, -1); //HPV1000
+ChangeVehiclePaintjob(g_Vehicle[281], 0);
+g_Vehicle[282] = CreateVehicle(523, -1615.6661, 731.2083, -5.6016, 0.0000, 0, 0, -1); //HPV1000
+ChangeVehiclePaintjob(g_Vehicle[282], 0);
+g_Vehicle[283] = CreateVehicle(523, -1613.6463, 731.1611, -5.6016, 0.0000, 0, 0, -1); //HPV1000
+g_Vehicle[284] = CreateVehicle(523, -1611.4475, 731.4107, -5.6016, 0.0000, 0, 0, -1); //HPV1000
+ChangeVehiclePaintjob(g_Vehicle[284], 0);
+g_Vehicle[285] = CreateVehicle(497, -1679.3391, 705.8167, 30.7217, 96.2998, 0, 0, -1); //Police Maverick
+ChangeVehiclePaintjob(g_Vehicle[285], 0);
+g_Vehicle[286] = CreateVehicle(430, -1476.7387, 691.0781, -0.3957, 178.9320, 0, 0, -1); //Predator
+ChangeVehiclePaintjob(g_Vehicle[286], 0);
+g_Vehicle[287] = CreateVehicle(430, -1476.5483, 701.6276, -0.4099, 358.3125, 0, 0, -1); //Predator
+g_Vehicle[288] = CreateVehicle(598, 2314.1757, 2475.5224, 3.0620, 90.0000, 0, 0, -1); //Police Car (LVPD)
+ChangeVehiclePaintjob(g_Vehicle[288], 0);
+g_Vehicle[289] = CreateVehicle(598, 2313.4472, 2480.4548, 3.0620, 90.0000, 0, 0, -1); //Police Car (LVPD)
+ChangeVehiclePaintjob(g_Vehicle[289], 0);
+g_Vehicle[290] = CreateVehicle(598, 2313.9863, 2470.4392, 3.0620, 90.0000, 0, 0, -1); //Police Car (LVPD)
+ChangeVehiclePaintjob(g_Vehicle[290], 0);
+g_Vehicle[291] = CreateVehicle(598, 2313.3776, 2466.1508, 3.0620, 90.0000, 0, 0, -1); //Police Car (LVPD)
+g_Vehicle[292] = CreateVehicle(598, 2313.2185, 2460.8066, 3.0620, 90.0000, 0, 0, -1); //Police Car (LVPD)
+ChangeVehiclePaintjob(g_Vehicle[292], 0);
+g_Vehicle[293] = CreateVehicle(598, 2285.6572, 2474.5803, 3.0065, 0.0000, 0, 0, -1); //Police Car (LVPD)
+ChangeVehiclePaintjob(g_Vehicle[293], 0);
+g_Vehicle[294] = CreateVehicle(598, 2281.5866, 2475.2077, 3.0065, 0.0000, 0, 0, -1); //Police Car (LVPD)
+ChangeVehiclePaintjob(g_Vehicle[294], 0);
+g_Vehicle[295] = CreateVehicle(598, 2277.3740, 2475.5874, 3.0065, 0.0000, 0, 0, -1); //Police Car (LVPD)
+g_Vehicle[296] = CreateVehicle(598, 2272.8518, 2475.8105, 3.0065, 0.0000, 0, 0, -1); //Police Car (LVPD)
+ChangeVehiclePaintjob(g_Vehicle[296], 0);
+g_Vehicle[297] = CreateVehicle(598, 2307.3750, 2431.3273, 2.9946, 0.0000, 0, 0, -1); //Police Car (LVPD)
+ChangeVehiclePaintjob(g_Vehicle[297], 0);
+g_Vehicle[298] = CreateVehicle(598, 2298.9262, 2431.8225, 2.9946, 0.0000, 0, 0, -1); //Police Car (LVPD)
+ChangeVehiclePaintjob(g_Vehicle[298], 0);
+g_Vehicle[299] = CreateVehicle(599, 2272.4565, 2431.9677, 3.3194, 0.0000, 0, 0, -1); //Police Ranger
+g_Vehicle[300] = CreateVehicle(599, 2267.9831, 2431.6877, 3.3194, 0.0000, 0, 0, -1); //Police Ranger
+ChangeVehiclePaintjob(g_Vehicle[300], 0);
+g_Vehicle[301] = CreateVehicle(599, 2263.6193, 2431.6625, 3.3194, 0.0000, 0, 0, -1); //Police Ranger
+ChangeVehiclePaintjob(g_Vehicle[301], 0);
+g_Vehicle[302] = CreateVehicle(601, 2246.5898, 2431.7929, 3.0092, 0.0000, 0, 0, -1); //S.W.A.T. Van
+ChangeVehiclePaintjob(g_Vehicle[302], 0);
+g_Vehicle[303] = CreateVehicle(427, 2250.7744, 2431.9975, 3.2946, 0.0000, 0, 0, -1); //Enforcer
+g_Vehicle[304] = CreateVehicle(427, 2258.8242, 2431.7910, 3.2946, 0.0000, 0, 0, -1); //Enforcer
+ChangeVehiclePaintjob(g_Vehicle[304], 0);
+g_Vehicle[305] = CreateVehicle(427, 2254.3488, 2432.4753, 3.2946, 0.0000, 0, 0, -1); //Enforcer
+ChangeVehiclePaintjob(g_Vehicle[305], 0);
+g_Vehicle[306] = CreateVehicle(415, 2297.8122, 2451.5507, 3.0483, 90.0000, 0, 0, -1); //Cheetah
+ChangeVehiclePaintjob(g_Vehicle[306], 0);
+g_Vehicle[307] = CreateVehicle(415, 2298.2182, 2455.7683, 3.0483, 90.0000, 0, 0, -1); //Cheetah
+g_Vehicle[308] = CreateVehicle(523, 2299.6643, 2459.1206, 2.8169, 90.0000, 0, 0, -1); //HPV1000
+ChangeVehiclePaintjob(g_Vehicle[308], 0);
+g_Vehicle[309] = CreateVehicle(523, 2299.8754, 2460.9135, 2.8169, 90.0000, 0, 0, -1); //HPV1000
+ChangeVehiclePaintjob(g_Vehicle[309], 0);
+g_Vehicle[310] = CreateVehicle(523, 2299.8305, 2463.0632, 2.8169, 90.0000, 0, 0, -1); //HPV1000
+ChangeVehiclePaintjob(g_Vehicle[310], 0);
+g_Vehicle[311] = CreateVehicle(448, 2122.2973, -1784.0837, 12.9785, 91.2316, 0, 0, -1); //Pizzaboy
+g_Vehicle[312] = CreateVehicle(448, 2122.3476, -1782.0085, 12.9804, 90.6977, 0, 0, -1); //Pizzaboy
+ChangeVehiclePaintjob(g_Vehicle[312], 0);
+g_Vehicle[313] = CreateVehicle(448, 2122.4060, -1779.8294, 12.9840, 89.1860, 0, 0, -1); //Pizzaboy
+ChangeVehiclePaintjob(g_Vehicle[313], 0);
+g_Vehicle[314] = CreateVehicle(448, 2122.4196, -1777.4923, 12.9855, 88.2854, 0, 0, -1); //Pizzaboy
+ChangeVehiclePaintjob(g_Vehicle[314], 0);
+g_Vehicle[315] = CreateVehicle(448, 2122.3381, -1775.0739, 12.9870, 89.0048, 0, 0, -1); //Pizzaboy
+g_Vehicle[316] = CreateVehicle(448, 2122.3352, -1772.5998, 12.9932, 86.5688, 0, 0, -1); //Pizzaboy
+ChangeVehiclePaintjob(g_Vehicle[316], 0);
+g_Vehicle[317] = CreateVehicle(448, 2122.4086, -1770.2363, 12.9898, 89.3265, 0, 0, -1); //Pizzaboy
+ChangeVehiclePaintjob(g_Vehicle[317], 0);
+g_Vehicle[318] = CreateVehicle(448, 2122.3327, -1767.9584, 12.9902, 89.8143, 0, 0, -1); //Pizzaboy
+ChangeVehiclePaintjob(g_Vehicle[318], 0);
+g_Vehicle[319] = CreateVehicle(410, 2103.2116, -1783.1380, 13.0450, 358.1177, 0, 0, -1); //Manana
+g_Vehicle[320] = CreateVehicle(410, 2106.5991, -1783.1392, 13.0444, 358.3699, 0, 0, -1); //Manana
+ChangeVehiclePaintjob(g_Vehicle[320], 0);
+g_Vehicle[321] = CreateVehicle(410, 2110.0031, -1783.1846, 13.0475, 358.5616, 0, 0, -1); //Manana
+ChangeVehiclePaintjob(g_Vehicle[321], 0);
+g_Vehicle[322] = CreateVehicle(410, 2113.2609, -1783.1693, 13.0399, 358.0927, 0, 0, -1); //Manana
+ChangeVehiclePaintjob(g_Vehicle[322], 0);
+g_Vehicle[323] = CreateVehicle(416, 2036.2554, -1429.4965, 17.0571, 180.0000, 0, 0, -1); //Ambulance
+g_Vehicle[324] = CreateVehicle(416, 2036.4742, -1439.7246, 17.0571, 180.0000, 0, 0, -1); //Ambulance
+ChangeVehiclePaintjob(g_Vehicle[324], 0);
+g_Vehicle[325] = CreateVehicle(416, 2016.8370, -1411.2895, 17.0571, 90.0000, 0, 0, -1); //Ambulance
+ChangeVehiclePaintjob(g_Vehicle[325], 0);
+g_Vehicle[326] = CreateVehicle(416, 2017.1021, -1416.2044, 17.0571, 90.0000, 0, 0, -1); //Ambulance
+ChangeVehiclePaintjob(g_Vehicle[326], 0);
+g_Vehicle[327] = CreateVehicle(416, 1180.2153, -1308.2330, 13.8243, -90.0000, 0, 0, -1); //Ambulance
+g_Vehicle[328] = CreateVehicle(416, 1180.4479, -1338.4403, 13.8243, -90.0000, 0, 0, -1); //Ambulance
+ChangeVehiclePaintjob(g_Vehicle[328], 0);
+g_Vehicle[329] = CreateVehicle(416, 1226.9530, 302.3792, 19.7677, 66.1085, 0, 0, -1); //Ambulance
+ChangeVehiclePaintjob(g_Vehicle[329], 0);
+g_Vehicle[330] = CreateVehicle(416, -2202.2329, -2294.7314, 30.7047, 320.0000, 0, 0, -1); //Ambulance
+ChangeVehiclePaintjob(g_Vehicle[330], 0);
+g_Vehicle[331] = CreateVehicle(416, -2544.5456, 610.1262, 14.4483, 90.0000, 0, 0, -1); //Ambulance
+g_Vehicle[332] = CreateVehicle(416, -2544.9499, 604.4022, 14.4483, 90.0000, 0, 0, -1); //Ambulance
+ChangeVehiclePaintjob(g_Vehicle[332], 0);
+g_Vehicle[333] = CreateVehicle(416, -2545.0087, 598.3671, 14.4483, 90.0000, 0, 0, -1); //Ambulance
+ChangeVehiclePaintjob(g_Vehicle[333], 0);
+g_Vehicle[334] = CreateVehicle(416, -2544.8769, 593.1544, 14.4483, 90.0000, 0, 0, -1); //Ambulance
+ChangeVehiclePaintjob(g_Vehicle[334], 0);
+g_Vehicle[335] = CreateVehicle(416, -2545.2927, 587.3546, 14.4483, 90.0000, 0, 0, -1); //Ambulance
+g_Vehicle[336] = CreateVehicle(416, -330.0057, 1062.9533, 19.7506, -90.0000, 0, 0, -1); //Ambulance
+ChangeVehiclePaintjob(g_Vehicle[336], 0);
+g_Vehicle[337] = CreateVehicle(416, -1508.8682, 2526.5510, 55.9118, 0.0000, 0, 0, -1); //Ambulance
+ChangeVehiclePaintjob(g_Vehicle[337], 0);
+g_Vehicle[338] = CreateVehicle(416, -1504.4027, 2526.4733, 55.9118, 0.0000, 0, 0, -1); //Ambulance
+ChangeVehiclePaintjob(g_Vehicle[338], 0);
+g_Vehicle[339] = CreateVehicle(416, 1617.1789, 1841.2314, 10.6855, 0.0000, 0, 0, -1); //Ambulance
+g_Vehicle[340] = CreateVehicle(416, 1612.3330, 1841.6624, 10.6855, 0.0000, 0, 0, -1); //Ambulance
+ChangeVehiclePaintjob(g_Vehicle[340], 0);
+g_Vehicle[341] = CreateVehicle(416, 1607.3164, 1841.8850, 10.6855, 0.0000, 0, 0, -1); //Ambulance
+ChangeVehiclePaintjob(g_Vehicle[341], 0);
+g_Vehicle[342] = CreateVehicle(416, 1602.5084, 1841.9370, 10.6855, 0.0000, 0, 0, -1); //Ambulance
+ChangeVehiclePaintjob(g_Vehicle[342], 0);
+g_Vehicle[343] = CreateVehicle(416, 1597.7698, 1841.7918, 10.6855, 0.0000, 0, 0, -1); //Ambulance
+g_Vehicle[344] = CreateVehicle(472, 2100.0495, -108.1940, 0.0693, 36.6362, 0, 0, -1); //Coastguard
+ChangeVehiclePaintjob(g_Vehicle[344], 0);
+g_Vehicle[345] = CreateVehicle(509, 1769.0483, -1905.9906, 13.0657, 0.0000, 0, 0, -1); //Bike
+ChangeVehiclePaintjob(g_Vehicle[345], 0);
+g_Vehicle[346] = CreateVehicle(509, 1766.8648, -1906.0200, 13.0657, 0.0000, 0, 0, -1); //Bike
+ChangeVehiclePaintjob(g_Vehicle[346], 0);
+g_Vehicle[347] = CreateVehicle(509, 1756.9683, -1905.9261, 13.0657, 0.0000, 0, 0, -1); //Bike
+g_Vehicle[348] = CreateVehicle(509, 1764.8287, -1905.9765, 13.0657, 0.0000, 0, 0, -1); //Bike
+ChangeVehiclePaintjob(g_Vehicle[348], 0);
+g_Vehicle[349] = CreateVehicle(509, 1762.6488, -1905.9102, 13.0657, 0.0000, 0, 0, -1); //Bike
+ChangeVehiclePaintjob(g_Vehicle[349], 0);
+g_Vehicle[350] = CreateVehicle(509, 1760.6248, -1905.9412, 13.0657, 0.0000, 0, 0, -1); //Bike
+ChangeVehiclePaintjob(g_Vehicle[350], 0);
+g_Vehicle[351] = CreateVehicle(509, 1758.7451, -1905.8674, 13.0657, 0.0000, 0, 0, -1); //Bike
+g_Vehicle[352] = CreateVehicle(593, 2917.0895, 1491.8254, 11.3273, 36.9250, 0, 0, -1); //Dodo
+ChangeVehiclePaintjob(g_Vehicle[352], 0);
+g_Vehicle[353] = CreateVehicle(557, 404.8421, 2494.6171, 16.8845, 90.8134, 0, 0, -1); //Monster B
+ChangeVehiclePaintjob(g_Vehicle[353], 0);
+g_Vehicle[354] = CreateVehicle(410, -1982.3448, 287.8302, 34.6280, 88.2624, 0, 0, -1); //Manana
+ChangeVehiclePaintjob(g_Vehicle[354], 0);
+g_Vehicle[355] = CreateVehicle(510, -496.4664, -478.6553, 25.1080, 305.5809, 0, 0, -1); //Mountain Bike
