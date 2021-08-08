@@ -31,7 +31,7 @@ Há alguns bugs e sistemas para serem terminados, coisas simples.
 # Créditos
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-| [<img src="https://avatars.githubusercontent.com/u/88601412?v=4" width="75px;"/><br /><sub>Guidine</sub>]()<br />[💻]() | [<img src="https://avatars.githubusercontent.com/u/82380880?v=4" width="75px;"/><br /><sub>AkirahX</sub>]()<br />[💻]() | [<img src="https://avatars.githubusercontent.com/u/88601412?v=4" width="75px;"/><br /><sub>Brenno</sub>]()<br />[💻]() | [<img src="https://avatars.githubusercontent.com/u/88601412?v=4" width="75px;"/><br /><sub>Will</sub>]()<br />[💻]() |
+| [<img src="https://avatars.githubusercontent.com/u/88601412?v=4" width="75px;"/><br /><sub>Guidine</sub>]()<br />[💻]() | [<img src="https://avatars.githubusercontent.com/u/82380880?v=4" width="75px;"/><br /><sub>AkirahX</sub>]()<br />[💻]() | [<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiyFZDKpgIx-iwvPtCXKyucPYJdEe1bsPA_FGJahHwMC6Fa3wlKdqSu58&s=10" width="75px;"/><br /><sub>Brenno</sub>]()<br />[💻]() | [<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiyFZDKpgIx-iwvPtCXKyucPYJdEe1bsPA_FGJahHwMC6Fa3wlKdqSu58&s=10" width="75px;"/><br /><sub>Will</sub>]()<br />[💻]() |
 | :---: | :---: | :---: | :---: |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 
